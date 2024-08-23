@@ -1,0 +1,68 @@
+Document (globalcampus.site/namespace.stxt): Documentos
+	Navigation:
+		Previous: Anterior (index)
+		Next: Siguiente (page_default)
+
+	Content:
+		Los documentos permiten insertar contenido. Son **las páginas**.
+		No hay limitación en lo que un documento puede contener, por lo que
+		se puede hacer casi cualquier contenido:
+		
+		* Página inicial
+		* Tema de una asignatura
+		* Capítulo de un libro
+		* Condiciones de uso
+		* ...
+		
+	Header: Estructura de un documento
+	
+	Content: 
+		Un documento es un texto en [SemanticText](https://semantictext.info),
+		que sigue el siguiente namespace:
+		
+	Code:
+		Namespace: globalcampus.site/namespace.stxt
+			Document:
+				Default: (?)
+				Metadata: (?)
+					title: (?)
+					description: (?)
+					author: (?)
+					last modif: (?)
+					id public: (?)
+					lang: (?)
+				Navigation: (?)
+					Previous: (?)
+					Next: (?)
+				Preamble: (?) TEXT
+				Header: (*)
+				Subheader: (*)
+				Content: (*) TEXT
+				Math: (*) TEXT
+				Assert: (*) TEXT
+				Alert: (*) TEXT
+				Code: (*) TEXT
+				Plantuml: (*) TEXT
+		
+			Default:
+				Title: (1)
+				Subtitle: (?)
+				Footer: (?)
+				Left Menu: (?)
+				Right menu: (?)
+				Display src: (?) BOOLEAN
+				Display edit: (?) BOOLEAN
+				
+	Subheader: Tipos de elementos
+	
+	Content:
+		Lo mejor es que provéis los distintos tipos de elementos,
+		pero los principales son los siguientes:
+		
+		* **Content**: Contenido en formato _wiki_
+		* **Header**: Cabeceras de primer nivel
+		* **Subheader**: Cabeceras de segundo nivel
+		* **Code**: Código fuente
+		* **Assert**: Afirmaciones importantes
+		* **Alert**: Alertas importantes
+

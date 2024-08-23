@@ -1,0 +1,23 @@
+Document (globalcampus.site/namespace.stxt): Demo aplicación
+	Navigation:
+		Previous: Anterior (code)
+		Next: Siguiente (math)
+
+	Header:	Ejemplo de plantuml
+	
+	Code:
+		Plantuml:
+			@startuml
+				Bob -> Alice
+				Alice -> Bob
+		    @enduml
+
+	Header: Resultado
+	
+	Plantuml:
+		@startuml
+			Bob -> Alice
+			Alice -> Bob
+	    @enduml
+		
+	

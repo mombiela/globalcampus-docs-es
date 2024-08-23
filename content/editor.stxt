@@ -1,0 +1,44 @@
+Document (globalcampus.site/namespace.stxt): Editor local
+	Navigation:
+		Previous: Anterior (github)
+		Next: Ejemplos (../examples/)
+
+	Content:
+		Tenemos un editor de stxt... **¡sorpresa!**. Este editor está en una fase muy inicial,
+		pero puede usar si se quiere. 
+		
+		Todas las páginas de globalcampus pueden verse con el editor, con sólo añadir `edit`
+		a la url:
+		
+	Assert:
+		`https://globalcampus.site/edit#nombre_servidor/ruta_fichero/...`\
+		`https://globalcampus.site/edit#ruta_fichero/...`\
+		`https://globalcampus.site/edit#github/propietario/proyecto/...`\
+
+	Content:
+		Por ejemplo, se puede editar la página de las condiciones de uso del portal mediante:
+		
+		* [https://globalcampus.site/edit#conditions](https://globalcampus.site/edit#conditions)
+		
+	Header: Cambios en local
+	
+	Content: 
+		Las modificaciones que hagamos **sólo** afectarán a nuestro **navegador local**
+		y **sólo mientras estemos en edición**. Para ello la pantalla mostrará un borde
+		especial y una pequeña pantalla de edición. 
+		
+		Estamos en una fase inicial, por lo que este editor no es muy _responsive_ y
+		debería usarse en un ordenador. Más adelante quizá se mejore, pero de momento 
+		sólo lo tenemos como demo rápida.
+		
+	Assert: 
+		No olvidéis de hacer _reset local_ al finalizar la edición (¡y copiarla al lugar definitivo!)
+		o la próxima vez que editéis la página veréis una versión antigua.
+
+	Header: Visualización de icono
+	
+	Content: Es posible visualizar el icono de editor en la página si habilitamos en `_default.stxt`
+		la propiedad `Display edit` a `true`.
+		
+		
+		

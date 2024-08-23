@@ -1,0 +1,51 @@
+Document (globalcampus.site/namespace.stxt): Texto Wiki
+	Navigation:
+		Previous: Anterior (base_default)
+		Next: Siguiente (code)
+
+	Header:	Código de texto wiki
+
+	Code:
+		Content:
+			Esto es un texto normal en formato wiki.
+			
+			Hola mundo, otra tabla\
+			Y otra tabla.
+			
+			**Esto es negrita**	y _Esto es cursiva_\
+			y `Esto es un código`. Se puede hacer un salto de línea seguido:\
+			Ahora un ejemplo de una lista (y un link):
+			
+			* Elem 1
+			* Elem 2
+			* Elem 3
+			* [Semantic Text Web](#github/mombiela/stxt-book/es/home)
+
+		    | Columna 1| Columna 2 |
+		    | ---------| ----------|
+		    | Valor 1  | Valor 2   |
+		    | Valor 3  | Valor 4   |
+		    | Valor 5  | Valor 6 largo, largo,... |
+
+	Header: Resultado
+	
+	Content:
+		Esto es un texto normal en formato wiki.
+		
+		Hola mundo, otra tabla\
+		Y otra tabla.
+		
+		**Esto es negrita**	y _Esto es cursiva_\
+		y `Esto es un código`. Se puede hacer un salto de línea seguido:\
+		Ahora un ejemplo de una lista (y un link):
+		
+		* Elem 1
+		* Elem 2
+		* Elem 3
+		* [Semantic Text Web](#github/mombiela/stxt-book/es/home)
+
+	    | Columna 1| Columna 2 |
+	    | ---------| ----------|
+	    | Valor 1  | Valor 2   |
+	    | Valor 3  | Valor 4   |
+	    | Valor 5  | Valor 6 largo, largo,... |

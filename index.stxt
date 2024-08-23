@@ -1,0 +1,20 @@
+
+Document (globalcampus.site/namespace.stxt):
+
+	Navigation:
+		Previous: Inicio (#index)
+		Next: Creación de Contenido (content/)
+		
+	Content:
+		La forma más rápida de empezar es clonar [el repositorio dónde está esta documentación](https://github.com/mombiela/globalcampus-docs)
+		en github y... ¡empezar a hacer cambios en el nuevo!
+		
+		Tenéis que apuntar a una url de la siguiente forma:
+		
+		`https://globalcampus.site/#github/[nombre_principal]/[nombre_proyecto]/` 
+		
+		Ya está :-)
+		
+		¡Ah! Y no dejéis de probar el editor. A veces los cambios en github tardan minutos en estar visibles y así podéis ir avanzando.
+
+	Assert: Quizá sea ésta la guía más rápida que se haya hecho para crear una web :-D

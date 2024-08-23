@@ -1,0 +1,70 @@
+Document (globalcampus.site/namespace.stxt): Demo documento
+
+	Navigation:
+		Previous: Anterior (index)
+		Next: Siguiente (wiki)
+		
+	Header: Un documento básico
+	
+	Code:
+		Document (globalcampus.site/namespace.stxt): Título del documento
+	
+			Header:	Cabecera primer nivel
+			Subheader:	Cabecera segundo nivel
+			
+			Content:
+				Esto es un texto normal de contenido.
+				
+	Header: Un documento completo
+	
+	Code:
+		Document (globalcampus.site/namespace.stxt): Título del documento
+			Default (globalcampus.site/namespace.stxt):
+				Title: Título General
+				Subtitle: [GlobalCampus.site](/) & [SemanticText](https://semantictext.info)
+				Footer: &copy; 2014 - Esta obra está bajo una [Licencia MIT](https://raw.githubusercontent.com/mombiela/semantic-web-builder/master/LICENSE)
+				Left Menu: **Guía Rápida** [Contenidos](content/) [Ejemplos](examples/) 
+				Right Menu: [Objectivos](#objective) | [Contactar](#contact) | [Condiciones](#conditions) 
+	
+			Header:	Cabecera primer nivel
+			Subheader:	Cabecera segundo nivel
+			
+			Content:
+				Esto es un texto normal de contenido.
+	
+			Assert: Esto es un assert
+			Alert: Esto es un alert
+			Code:
+				<h1>Esto es un código html</h1>
+				<h2>Esto es un código html</h2>
+					***<p>Esto es un código html</p>***
+			Plantuml:
+				@startuml
+					Bob -> Alice
+					Alice -> Bob
+			    @enduml
+		  	Math: This is a LaTeX inline equation: $E=mc^2$
+
+	Header: Resultado del documento
+	
+	Header:	Cabecera primer nivel
+	Subheader:	Cabecera segundo nivel
+	
+	Content:
+		Esto es un texto normal de contenido.
+
+	Assert: Esto es un assert
+	Alert: Esto es un alert
+	Code:
+		<h1>Esto es un código html</h1>
+		<h2>Esto es un código html</h2>
+			***<p>Esto es un código html</p>***
+	Plantuml:
+		@startuml
+			Bob -> Alice
+			Alice -> Bob
+	    @enduml
+  	Math: This is a LaTeX inline equation: $E=mc^2$
+	
+	
+	

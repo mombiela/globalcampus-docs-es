@@ -1,0 +1,73 @@
+Document (globalcampus.site/namespace.stxt): URL's y cabeceras
+	Navigation:
+		Previous: Anterior (page_default)
+		Next: Siguiente (github)
+
+	Content:
+		Todo el portal de _GlobalCampus_ está formado con url's, con
+		un significado especial. Además, se usa una estructura 
+		en forma de Single Page Application, de forma que sólo
+		cambia lo que hay después de `#`.
+		
+		Ésta es la estructura:
+		
+		`https://globalcampus.site/#ruta_del_fichero/...`
+	
+	Content:	
+		Con esta ruta, el navegador busca un fichero mediante
+		una petición, y construye la ruta añadiendo `.stxt` al
+		final de la ruta.
+
+	Header: Páginas alojadas en GlobalCampus
+	
+	Content:
+		Hay sólo un conjunto muy reducido de páginas en
+		GlobalCampus, y son básicamente las que explicamos las
+		condiciones de uso de la web, los objetivos, etc.
+		
+		Tienen la siguiente forma:
+		
+	Assert: https://globalcampus.site/#ruta_del_fichero
+	
+	Content: 
+		Ejemplos:
+		
+		* [https://globalcampus.site/#objective](https://globalcampus.site/#objective): Ruta física `https://globalcampus.site/objective.stxt`  
+		* [https://globalcampus.site/#contact](https://globalcampus.site/#contact): Ruta física  `https://globalcampus.site/contact.stxt`
+		
+	Header: Páginas alojadas en servidores externos
+	
+	Content:
+		Es posible alojar las páginas en servidores externos. De hecho, **es lo habitual**.\
+		Es el principal objetivo por el que se ha creado el portal:
+		
+	Assert: Crear un Meta Portal **DESCENTRALIZADO** de Aprendizaje
+	
+	Content: 
+		Ésta es la estructura:
+		
+	Assert: `https://globalcampus.site/#nombre_servidor/ruta_fichero/...`
+	
+	Content: 
+		En caso de que se indique un directorio, se mostrará la página `index.stxt` que esté en ese directorio 
+		
+		Ejemplos:
+		
+		* [https://globalcampus.site/#www.example.com/ruta/page](https://globalcampus.site/#www.example.com/ruta/page): 
+		  Ruta física `https://www.example.com/ruta/page.stxt`
+		* [https://globalcampus.site/#www.example.com/ruta/](https://globalcampus.site/#www.example.com/ruta/): 
+		  Ruta física `https://www.example.com/ruta/index.stxt`
+	
+	Header: Cabeceras http
+	
+	Content:
+		Para que la página funcione correctamente en globalcampus, se tiene que habilitar las cabeceras correspondientes
+		a `access-control-allow-origin` ya sea a `*` o `https://globalcampus.site`. Esto es para indicar que realmente
+		globalcampus.site puede ir a buscar esa página. 
+		
+		 
+	
+	
+	
+		
+		

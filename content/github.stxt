@@ -1,0 +1,24 @@
+Document (globalcampus.site/namespace.stxt): URL's de github
+	Navigation:
+		Previous: Anterior (urls)
+		Next: Siguiente (editor)
+
+	Content:
+		**Github** es uno de los mejores repositorios de código fuente
+		que existen, y hemos realizado una integración sencilla con él.
+		
+		Así, si creamos un proyecto en github con ficheros .stxt que
+		tengan el namespace de globalcampus.site, estos podrán
+		ser mostrados directamente siguiendo la siguiente url:
+		
+		`https://globalcampus.site/#github/[nombre_principal]/[nombre_proyecto]/`
+		
+		Por ejemplo, esta documentación está en:
+		
+	Assert: 
+		[Documentación técnica globalcampus](https://github.com/mombiela/globalcampus-docs) \
+		accesible por [https://globalcampus.site/#github/mombiela/globalcampus-docs/](https://globalcampus.site/#github/mombiela/globalcampus-docs/)
+	
+	Content: 
+		Una cosa muy sencilla que se puede hacer es clonar este repositorio a otro y apuntar a la url nueva:
+		Se podrá ver la documentación y hacer cambios para ir probando las posibilidades de stxt.
