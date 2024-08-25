@@ -37,7 +37,7 @@ Document (globalcampus.site/namespace.stxt): Demo documento
 			Code:
 				<h1>Esto es un código html</h1>
 				<h2>Esto es un código html</h2>
-					***<p>Esto es un código html</p>***
+				<p>Esto es un código html</p>
 			Plantuml:
 				@startuml
 					Bob -> Alice
