@@ -1,7 +1,7 @@
 Default (globalcampus.site/namespace.stxt):
 
 	Title: GlobalCampus: Contenido
-	Subtitle: [GlobalCampus.site](/#es/) & [SemanticText](https://semantictext.info)
+	Subtitle: [SemanticText](https://semantictext.info)
 	Footer: &copy; 2014 - Esta obra está bajo una [Licencia MIT](https://raw.githubusercontent.com/mombiela/semantic-web-builder/master/LICENSE)
 	
 	Left Menu: [Guía Rápida](../index) **Contenidos** [Ejemplos](../examples/)
