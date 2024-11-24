@@ -1,5 +1,7 @@
 Document (globalcampus.site/namespace.stxt): Condiciones Legales de Uso
-	
+	Default:
+		Left Menu: [Guía Rápida](index) [Contenidos](content/) [Ejemplos](examples/) 
+
 	Header: 1. Introducción
 	Content:
 		Bienvenido a globalcampus.site. Al acceder y utilizar este sitio web, 

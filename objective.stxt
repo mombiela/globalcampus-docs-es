@@ -1,4 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Nuestros objetivos
+	Default:
+		Left Menu: [Guía Rápida](index) [Contenidos](content/) [Ejemplos](examples/) 
 
 	Content:
 		Tenemos varios objetivos al hacer este portal. Intentaremos explicarlos:
